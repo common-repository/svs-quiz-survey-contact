@@ -1,0 +1,96 @@
+.svs-quiz-main-container{
+	color: #494949;
+}
+.svs-quiz-main-container ul{
+	list-style: none;
+	padding: 0;
+}
+.svs-col-1,
+.svs-col-2,
+.svs-col-3{
+	float: left;
+}
+.svs-col-2{
+	width: 50%;
+}
+.svs-col-3{
+	width: 33%;
+}
+.svs-col-1{
+	width: 100%;
+}
+
+#svs-quiz-header{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.svs-quiz-main-container label,
+.svs-form-control-label{
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.svs-quiz-main-container textarea{
+	max-width: 310px;
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 120px;
+	padding: 10px;
+}
+.svs-quiz-main-container input[type=text],
+.svs-quiz-main-container input[type=email],
+.svs-quiz-main-container select{
+	display: block;
+	margin-bottom: 20px;
+	max-width: 310px;
+	width: 100%;
+	height: 34px;
+	padding-left: 10px;
+}
+.svs-quiz-main-container .svs-quiz-submit-btn{
+	width: 140px;
+	height: 40px;
+}
+.svs-quiz-main-container input[type=checkbox], 
+.svs-quiz-main-container input[type=radio]{
+	margin: 0px 20px 20px 4px;
+}
+.svs-quiz-main-container input,
+.svs-quiz-main-container select,
+.svs-quiz-main-container textarea,
+.svs-quiz-main-container .svs-quiz-submit-btn{
+	background-color: #fff;
+}
+.svs-quiz-main-container input[type=text],
+.svs-quiz-main-container input[type=email],
+.svs-quiz-main-container textarea,
+.svs-quiz-main-container select,
+.svs-quiz-main-container .svs-quiz-submit-btn{
+	border: 1px solid #adadad;
+	border-radius: 3px;
+}
+.svs-quiz-main-container input[type=text]:focus,
+.svs-quiz-main-container textarea:focus,
+.svs-quiz-main-container input[type=email]:focus,
+.svs-quiz-main-container select:focus{
+	border: 1px solid #04ccc5;
+	outline: none;
+	box-shadow: 0px 0px 4px rgba(0, 237, 225, 0.6);
+}
+.svs-quiz-main-container .svs-quiz-submit-btn:hover{
+	background-color: #d6d6d6;
+}
+.svs-quiz-main-container .svs-quiz-submit-btn,
+.svs-quiz-main-container label,
+.svs-form-control-label{
+	color: #565656;
+}
+
+@media screen and (max-width: 667px){
+	.svs-col-1,
+	.svs-col-2,
+	.svs-col-3{
+		width: 100%;
+		float: none;
+	}
+}
